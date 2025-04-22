@@ -1,0 +1,541 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+body {
+  /* background-color: bisque; */
+  font-family: sans-serif;
+  height: 100vh;
+  margin-bottom: 60;
+  
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+header {
+  height: 60px;
+  background-color: rgb(48, 46, 46);
+}
+.main-wrapper {
+  width: 980px;
+  margin: 0 auto;
+}
+.main-wrapper ul {
+  display: flex;
+  justify-content: space-between;
+}
+.main-wrapper ul li {
+  padding: 20px;
+}
+.main-wrapper ul li a:hover {
+  color: rgb(194, 164, 164);
+}
+.main-wrapper ul li a {
+  color: white;
+  font-weight: 200;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.logo {
+  width: 20px;
+}
+.cart img {
+  width: 18px;
+}
+.search {
+  width: 20px;
+  margin-top: 2px;
+}
+
+/* *****************iphone-16-pro***************** start */
+#iphone-16-pro {
+  height: 580px;
+  background-image: url("/images/iphone-16-pro/iphone16pro.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 12px;
+}
+.iphone-16-pro {
+  text-align: center;
+  color: white;
+  padding-top: 70px;
+}
+.iphone-16-pro h1 {
+  font-size: 54px;
+  font-weight: 900;
+}
+.iphone-16-pro p {
+  font-size: 24px;
+  margin-bottom: 22px;
+}
+.btn {
+  display: inline-block;
+}
+
+/* ************************** buttons style here************ */
+.learn-more1 {
+  margin-right: 22px;
+  background-color: blueviolet;
+  padding: 9px 16px;
+  color: white;
+  font-size: 20px;
+  border-radius: 18px;
+}
+.buy1 {
+  border: 2px solid blueviolet;
+  padding: 7px 25px;
+  color: white;
+  font-size: 20px;
+  border-radius: 18px;
+}
+.learn-more1:hover {
+  background-color: rgb(154, 92, 212);
+}
+.buy1:hover {
+  background-color: blueviolet;
+  color: rgb(56, 38, 75);
+}
+/* *****************iphone-16-pro***************** end */
+
+/* *****************iphone-16***************** start */
+#iphone-16 {
+  height: 580px;
+  background-image: url("/images/iphone-16/iphone16.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 12px;
+}
+.iphone-16 {
+  text-align: center;
+  color: white;
+  padding-top: 70px;
+}
+.iphone-16 h1 {
+  font-size: 54px;
+  font-weight: 900;
+}
+.iphone-16 p {
+  font-size: 24px;
+  margin-bottom: 22px;
+}
+.btn {
+  display: inline-block;
+}
+
+/* ************************** buttons style here************ */
+.learn-more2 {
+  margin-right: 22px;
+  background-color: white;
+  padding: 9px 16px;
+  color: black;
+  font-size: 20px;
+  border-radius: 18px;
+}
+.learn-more2:hover {
+  background-color: rgb(241, 236, 241);
+}
+.buy2 {
+  border: 1px solid rgb(187, 180, 194);
+  padding: 7px 25px;
+  color: white;
+  font-size: 20px;
+  border-radius: 18px;
+}
+.buy2:hover {
+  background-color: white;
+  color: black;
+}
+/* *****************iphone-16-pro***************** end */
+/* *****************macbook-air***************** start */
+#macbook-air {
+  height: 580px;
+  background-image: url("/images/macbook-air/macbook_air.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 12px;
+}
+.macbook-air {
+  text-align: center;
+  color: black;
+  padding-top: 70px;
+}
+.macbook-air h1 {
+  font-size: 54px;
+  font-weight: 900;
+}
+.macbook-air p {
+  font-size: 24px;
+}
+.pa {
+  margin-bottom: 22px;
+  font-weight: 100;
+}
+.btn {
+  display: inline-block;
+}
+
+/* ************************** buttons style here************ */
+.learn-more3 {
+  margin-right: 22px;
+  background-color: blueviolet;
+  padding: 9px 16px;
+  color: white;
+  font-size: 20px;
+  border-radius: 18px;
+}
+.learn-more3:hover {
+  background-color: rgb(139, 60, 182);
+}
+.buy3 {
+  border: 1px solid rgb(187, 180, 194);
+  padding: 7px 25px;
+  color: rgb(140, 100, 177);
+  font-size: 20px;
+  border-radius: 18px;
+}
+.buy3:hover {
+  background-color: blueviolet;
+  color: black;
+}
+/* *****************macbook-air***************** end */
+
+.my-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin: 0 15px;
+}
+/* *****************macbook-air***************** start */
+#ipad-pro {
+  height: 580px;
+  background-image: url("/images/ipads/_ipadpro.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 12px;
+}
+.ipad-pro {
+  text-align: center;
+  color: white;
+  padding-top: 70px;
+}
+.ipad-pro h1 {
+  font-size: 54px;
+  font-weight: 900;
+}
+.ipad-pro p {
+  font-size: 24px;
+  margin-bottom: 22px;
+}
+/* .pa{
+    margin-bottom: 22px;
+    font-weight: 100;
+} */
+.btn {
+  display: inline-block;
+}
+
+/* ************************** buttons style here************ */
+.learn-more4 {
+  margin-right: 22px;
+  background-color: blueviolet;
+  padding: 9px 16px;
+  color: white;
+  font-size: 20px;
+  border-radius: 18px;
+}
+.learn-more4:hover {
+  background-color: rgb(139, 60, 182);
+}
+.buy5 {
+  border: 1px solid rgb(187, 180, 194);
+  padding: 7px 25px;
+  color: rgb(140, 100, 177);
+  font-size: 20px;
+  border-radius: 18px;
+}
+.buy5:hover {
+  background-color: blueviolet;
+  color: black;
+}
+/* *****************iphone-16-pro***************** end */
+/* *****************macbook-air***************** start */
+#macbook-pro {
+  height: 580px;
+  background-image: url("/images/macpro/macbookpro.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 12px;
+}
+.macbook-pro {
+  text-align: center;
+  color: white;
+  padding-top: 70px;
+}
+.macbook-pro h1 {
+  font-size: 54px;
+  font-weight: 900;
+}
+.macbook-pro p {
+  font-size: 24px;
+  margin-bottom: 22px;
+}
+/* .pa{
+    margin-bottom: 22px;
+    font-weight: 100;
+} */
+.btn {
+  display: inline-block;
+}
+
+/* ************************** buttons style here************ */
+.learn-more5 {
+  margin-right: 22px;
+  background-color: blueviolet;
+  padding: 9px 16px;
+  color: white;
+  font-size: 20px;
+  border-radius: 18px;
+}
+.learn-more5:hover {
+  background-color: rgb(139, 60, 182);
+}
+.buy5 {
+  border: 1px solid rgb(187, 180, 194);
+  padding: 7px 25px;
+  color: rgb(140, 100, 177);
+  font-size: 20px;
+  border-radius: 18px;
+}
+.buy5:hover {
+  background-color: blueviolet;
+  color: black;
+}
+/* *****************macbook-pro***************** end */
+
+/* *****************watch ***************** start */
+#watch {
+  height: 580px;
+  background-image: url("/images/apple_watch_series.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 12px;
+}
+.watch {
+  text-align: center;
+  color: white;
+  padding-top: 70px;
+}
+
+.watch p {
+  font-size: 24px;
+  margin-bottom: 22px;
+  color: black;
+}
+
+/* ************************** buttons style here************ */
+.learn-more6 {
+  margin-right: 22px;
+  background-color: blueviolet;
+  padding: 9px 16px;
+  color: white;
+  font-size: 20px;
+  border-radius: 18px;
+}
+.learn-more6:hover {
+  background-color: rgb(139, 60, 182);
+}
+.buy6 {
+  border: 1px solid rgb(187, 180, 194);
+  padding: 7px 25px;
+  color: rgb(140, 100, 177);
+  font-size: 20px;
+  border-radius: 18px;
+}
+.buy6:hover {
+  background-color: blueviolet;
+  color: black;
+  border: none;
+}
+/* *****************iphone-16-pro***************** end */
+/* *****************mac-does-that***************** start */
+#mac-does-that {
+  height: 580px;
+  background-image: url("/images/mac_does_that.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 12px;
+}
+.mac-does-that {
+  text-align: center;
+  color: white;
+  padding-top: 70px;
+}
+.mac-does-that p {
+  font-size: 24px;
+  margin-bottom: 22px;
+  color: black;
+}
+
+/* ************************** buttons style here************ */
+.learn-more7 {
+  margin-right: 22px;
+  background-color: blueviolet;
+  padding: 9px 16px;
+  color: white;
+  font-size: 20px;
+  border-radius: 18px;
+}
+.learn-more7:hover {
+  background-color: rgb(139, 60, 182);
+}
+.buy7 {
+  border: 1px solid rgb(187, 180, 194);
+  padding: 7px 25px;
+  color: rgb(140, 100, 177);
+  font-size: 20px;
+  border-radius: 18px;
+}
+.buy7:hover {
+  background-color: blueviolet;
+  color: black;
+}
+/* *****************trade ***************** end */
+#trade  {
+  height: 580px;
+  background-image: url("/images/iphone_trade.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 12px;
+}
+.trade {
+  text-align: center;
+  color: white;
+  padding-top: 70px;
+}
+
+.trade p {
+  font-size: 24px;
+  /* margin-bottom: 22px; */
+  color: black;
+}
+
+************************** buttons style here************
+.learn-more6 {
+  margin-right: 22px;
+  background-color: blueviolet;
+  padding: 9px 16px;
+  color: white;
+  font-size: 20px;
+  border-radius: 18px;
+}
+.learn-more6:hover {
+  background-color: rgb(139, 60, 182);
+}
+.buy6 {
+  border: 1px solid rgb(187, 180, 194);
+  padding: 7px 25px;
+  color: rgb(140, 100, 177);
+  font-size: 20px;
+  border-radius: 18px;
+}
+.buy6:hover {
+  background-color: blueviolet;
+  color: black;
+  border: none;
+}
+/* *****************iphone-16-pro***************** end */
+/* *****************mac-does-that***************** start */
+#card {
+  height: 580px;
+  background-image: url("/images/card/promo_apple_card__5cm7draujpey_large.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 42px;
+
+}
+.card {
+  text-align: center;
+  color: white;
+  padding-top: 70px;
+}
+.card p {
+  font-size: 24px;
+  /* margin-bottom: 22px; */
+  color: black;
+}
+/* *****************mac-does-that***************** end */
+
+
+/* footer style  */
+.main-footer{
+    margin: 0 auto;
+    background-color: rgb(223, 216, 216);
+     padding: 14px 120px 23px 120px;
+ 
+}
+.footer-wrapper{
+  display: flex;
+  
+  
+  
+}
+.footer-wrapper a:hover{
+  text-decoration: underline;
+}
+.footer-wrapper,.main-my-wrapper{
+ margin: 0 auto;
+ padding: 12px 33px 13px 54px;
+line-height: 28px;
+
+}
+.main-my-wrapper h2{
+  font-size: 18px;
+  font-weight: bolder;
+ padding: 7px 0;
+}
+.Entertainment{
+  margin-top: 12px;
+}
+.main-my-wrapper a{
+  color: black;
+  font-weight: 100;
+  font-size: 14px;
+}
+.text-part{
+  padding: 20px 120px 23px 100px;
+}
+.text-part p {
+    padding-bottom: 12px;
+    font-size: 15px;
+    line-height: 22px;
+
+}
+.foot-wrapper{
+  padding: 0 120px 3px 110px;
+  font-size: 14px;
+  font-weight: normal;
+}
+.foot{
+  padding: 10px 0;
+}
+.foot2{
+   padding: 10px  0 0 4px;
+   
+}
+.foot a{
+  text-decoration: underline;
+}
+.foot2 a{
+  color: black;
+  margin: 0 7px;
+}
+.foot2 a:hover{
+  text-decoration: underline;
+}
